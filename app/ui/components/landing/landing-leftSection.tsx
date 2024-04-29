@@ -12,7 +12,7 @@ export default function LandingLeftSection() {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque excepturi iusto facilis porro veritatis soluta.
       </p>
       <div className='mt-6'>
-        <Link href="/auth/login" className={`${poppins.className} px-3.5 py-2.5 bg-primary text-primary-foreground uppercase font-medium tracking-wider transition-all duration-500 ease-in-out w-64 flex items-center justify-center hover:tracking-widest`}>Continue</Link>
+        <Link href="/auth/login" className={`${poppins.className} px-3.5 py-2.5 bg-primary text-primaryForeground uppercase font-medium tracking-wider transition-all duration-500 ease-in-out w-64 flex items-center justify-center hover:tracking-widest`}>Continue</Link>
       </div>
     </div>
   )

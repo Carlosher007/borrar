@@ -19,6 +19,15 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+        background: '#222',
+        foreground: '#fff',
+
+        backgroundSecondary: '#1a1f24',
+        foregroundSecondary: '#999',
+        foregroundTertiary: '#0f0',
+
+        primary: '#fff',
+        primaryForeground: '#222',
       },
     },
     keyframes: {
