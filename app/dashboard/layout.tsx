@@ -8,24 +8,22 @@ export default function Layout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <div className="relative flex flex-col">
-        <DashboardHeader />
-        <div className="container mx-auto max-w-7xl pt-16 px-6 flex-grow ">
-          {children}
-        </div>
-        <footer className="w-full flex items-center justify-center py-3">
-          <Link
-            isExternal
-            className="flex items-center gap-1 text-current"
-            href={siteConfig.links.github}
-            title="nextui.org homepage"
-          >
-            <span className="text-default-600">ImageHub by</span>
-            <p className="text-primary">Univalle</p>
-          </Link>
-        </footer>
+    <div className="flex flex-col min-h-screen">
+      <DashboardHeader />
+      <div className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+        {children}
       </div>
+      <footer className="w-full flex items-center justify-center py-3">
+        <Link
+          isExternal
+          className="flex items-center gap-1 text-current"
+          href={siteConfig.links.github}
+          title="nextui.org homepage"
+        >
+          <span className="text-default-600">ImageHub by</span>
+          <p className="text-primary">Univalle</p>
+        </Link>
+      </footer>
     </div>
   );
 }
